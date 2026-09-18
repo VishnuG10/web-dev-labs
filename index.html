@@ -6,15 +6,66 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Hello, World!</h1>
-  <p>This is my first HTML page for this course.</p>
-  <h2>Vishnu's Webapp</h2>
-<ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript</li>
-</ul>
-<a href="https://www.w3schools.com/">W3Schools is a helpful website to learn web development.</a>
-<img src="photo.jpg" alt="This is a photo of Illinois Institute of technology">
+  <header>
+    <h1>Hello, World!</h1>
+      <p>This is my first HTML page for this course.</p>
+  </header>
+  <nav>
+    <a href="https://github.com/VishnuG10">Github</a>
+    <a href="https://www.portal.iit.edu/">IIT portal</a>
+    <a href="mailto:vupadhya@hawk.illinoistech.edu">Contact</a>
+  </nav>
+  <main>
+    <h2>Vishnu's Webapp</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+    <a href="https://www.w3schools.com/">W3Schools is a helpful website to learn web development.</a>
+    <img src="photo.jpg" alt="This is a photo of Illinois Institute of technology">
+    <table>
+<caption>Fall Courses</caption>
+<thead>
+<tr>
+<th>Sl No.</th>
+<th>Course</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Web Application foundations</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Cloud Computing Technologies</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Service Oriented Architecture</td>
+</tr>
+</tbody>
+</table>
+<caption>My Courses this Semester</caption>
+<form>
+<label for="name">Name</label>
+<input type="text" id="name" name="name" required>
+<label for="email">Email</label>
+<input type="email" id="email" name="email" required>
+<label for="msg">Message</label>
+<textarea id="msg" name="msg"></textarea>
+<label for="referral">How did you find this page?</label>
+<select id="referral" name="referral">
+<option value="search">Search engine</option>
+<option value="social">Social media</option>
+<option value="friend">A friend</option>
+</select>
+<button type="submit">Send</button>
+</form>
+  </main>
+  <footer>
+    <p>Vishnu Upadhya 2026</p>
+  </footer>
 </body>
 </html>

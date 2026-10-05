@@ -42,7 +42,7 @@ padding: 12px;
 transition: background-color 0.2s ease;
 }
 #main-nav a:hover {
-background-color: #14b8a6
+background-color: #14b8a6;
 }
 table {
 border-collapse: collapse;

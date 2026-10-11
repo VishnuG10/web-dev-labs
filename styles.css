@@ -93,3 +93,9 @@ font-size: 1.5rem;
     max-width: 100%;
   }
 }
+
+/*Vishnu G Upadhya lab 7*/
+body.dark {
+background-color: #111827;
+color: #f1f5f9;
+}
